@@ -1,0 +1,15 @@
+Title       : Madoko日本語対応
+Author      : 著者名
+
+[INCLUDE=style/ltjsarticle]
+
+[TITLE]
+
+# 説明
+
+[Madoko](https://github.com/houshuang/madoko/blob/master/doc/reference.mdk) (Markdown processor written in Koka)
+を使うとマークダウン拡張なソースファイルからLaTeXやHTMLを生成できます。
+デフォルトではXeLaTeXをPDF向けのレンダリングに使っているのですが、このレポジトリではLuaLaTeX に置き換えています。
+それにより日本語でもMadokoを使えるようになりました！
+Madokoの良いところや使い方は[公式リファレンス](http://madoko.org/reference.pdf)を参照してください。
+このテンプレートを用いたレンダリングの方法は`README.md`に記載します。

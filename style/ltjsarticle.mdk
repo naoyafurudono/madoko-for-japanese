@@ -1,0 +1,13 @@
+Description:
+    Madoko settings for Japanese LaTeX document class.
+Heading base  : 2
+
+<!--
+It might make the rendering slower using lualatex as Latex.
+The use is due to processing of latexja package, it requires lualatex engine where Madoko uses Latex engine.
+-->
+
+Latex         : lualatex
+Pdf Latex     : lualatex
+Doc Class     : []ltjsarticle.cls
+Package       : luatexja
